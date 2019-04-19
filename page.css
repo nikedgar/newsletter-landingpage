@@ -1,0 +1,81 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+}
+
+/* HERO SECTION */
+
+.display-4 {
+    font-size: 3em;
+    background: #28a745e3;
+    font-weight: 700;
+    max-width: 389px;
+    padding: 10;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .display-4 {
+        font-size: 3rem;
+    }
+}
+
+.hero-dark {
+    min-height: 500px;
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: none;
+}
+
+/* HERO SECTION END*/
+
+/* WHATS NEW SECTION */
+.gray {
+    background: #f7f7f7;
+    padding: 20;
+}
+
+.text-muted {
+    color: #6c757d !important;
+    font-size: 12px;
+}
+
+.card-img-right {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .d-md-block {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+/* WHATS NEW SECTION END */
+
+/* UNDERLINE TITLE */
+.copy-border {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #28a745;
+    margin: 20px auto;
+}
+
+/* UNDERLINE TITLE END */
